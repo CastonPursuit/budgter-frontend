@@ -1,0 +1,29 @@
+/* TransactionDetails.css */
+
+.transaction-details {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  strong {
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+    margin-right: 8px;
+  }
+  
+  Link {
+    display: block;
+    margin-top: 16px;
+  }
+  

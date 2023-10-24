@@ -1,0 +1,43 @@
+/* TransactionCard.ss */
+
+.transaction-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px; 
+    padding: 16px;
+    margin: 16px auto;
+    width: 60%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .transaction-info {
+    display: flex;
+    flex-grow: 1;
+    width: 80%;
+    justify-content: space-between;
+  }
+  
+  .transaction-date {
+    font-weight: bold;
+    flex-basis: 30%;
+    text-align: left;
+  }
+  
+  .transaction-category {
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+    color: blue ;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .transaction-amount {
+    flex-basis: 20%;
+    text-align: right;
+    
+  }
+  
