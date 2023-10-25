@@ -1,7 +1,9 @@
+import '../styles/Navbar.css';
+
 export default function Navbar() {
 
     return (
-        <div>
+        <div className="navbar">
             This is the Navbar component
         </div>
     )
